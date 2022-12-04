@@ -15,9 +15,9 @@ void MainMenu()
 		cout << "\t\t\t\tAQI(Air Quality Index) calculator\n";
 		cout << "\n";
 		cout << "\t\t\tPollutants used are:\n";
-		cout << "\t1->Carbon Mono-Oxide(CO)\n";
-		cout << "\t2->Particulate matter(PM2.5)\n";
-		cout << "\t3->Particulate matter(PM10)\n";
+		cout << "\t1 -> Carbon Mono-Oxide(CO)\n";
+		cout << "\t2 -> Particulate matter(PM2.5)\n";
+		cout << "\t3 -> Particulate matter(PM10)\n";
 		cout << "*******************************************************************************************\n";
 		cout << "\n Enter the concentration(ppm) of CO-8hr. average:\n";                          //Taking concentrations as the input
 		cin >> o;
