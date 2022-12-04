@@ -23,7 +23,7 @@ void startMenu()
 	fontex.dwFontSize.X = 36;
 	fontex.dwFontSize.Y = 36;
 	SetCurrentConsoleFontEx(hOut, NULL, &fontex);
-
+	cout << "CAN YOU SEE THIS???????????????";
 
 	for (int i = 0; i < k.length(); ++i) {
 		cout << k.at(i);
