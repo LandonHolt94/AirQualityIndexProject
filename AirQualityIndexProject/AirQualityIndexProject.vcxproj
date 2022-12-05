@@ -136,6 +136,10 @@
     <ClInclude Include="pm10.h" />
     <ClInclude Include="pm2.h" />
     <ClInclude Include="recommendation.h" />
+    <ClInclude Include="testttttttttttttttt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="city.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

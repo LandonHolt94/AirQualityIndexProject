@@ -1,11 +1,17 @@
+
 #pragma once
 #include <fstream>
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <map>
 using namespace std;
 
 
 void MainMenu()
 {
+	/*
 	int ch = 1;
 	float o, p, q;
 	float a, b, d, e;
@@ -20,9 +26,9 @@ void MainMenu()
 		cout << "\t2 -> Particulate matter(PM2.5)\n";
 		cout << "\t3 -> Particulate matter(PM10)\n";
 		cout << "*******************************************************************************************\n";
-		cout << "\n Enter the concentration(ppm) of CO-8hr. average:\n";                          //Taking concentrations as the input
+		cout << "\nEnter the concentration(ppm) of CO-8hr. average:\n";                          //Taking concentrations as the input
 		cin >> o;
-		cout << "\n Enter the concentration (microgram per cubic metre) of PM2.5 -24 hr. average:\n";
+		cout << "\nEnter the concentration (microgram per cubic metre) of PM2.5 -24 hr. average:\n";
 		cin >> p;
 		cout << "\nEnter the concentration(microgram per cubic metre) of PM10 -24 hr. average:\n";
 		cin >> q;
@@ -42,6 +48,47 @@ void MainMenu()
 		cin >> ch;
 		system("cls");
 	}
+	*/
 
+	string input;
+	ifstream cityFile;
+	string city;
+	
+	
+
+	cityFile.open("city.txt");
+
+	cout << "Enter the city you'd like to see. " << endl;
+	cin >> city;
+	bool isfound = 0;
+
+	while (!cityFile.eof())
+	{
+		string temp = " ";
+		getline(cityFile, temp);
+
+		for (int i = 0; i < city.size(); i++)
+		{
+			if (tolower(temp[i]) == tolower(city[i]))
+				isfound = 1;
+			else
+			{
+				isfound = 0;
+				break;
+			}
+		}
+		if (isfound)
+		{
+			cout << "WORKS" << endl;
+			//for (int i = city.size() + 1; i < temp.size(); i++)
+				//cout << temp[i];
+			break;
+		}
+	}
+	if (cityFile.eof() && (!isfound))
+	{
+		cout << "City not found";
+	}
+	cityFile.close();
 
 }
