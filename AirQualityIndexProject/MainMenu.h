@@ -1,15 +1,16 @@
 #pragma once
 #include <fstream>
 #include <iostream>
+#include <string>
 using namespace std;
 
 
 void MainMenu()
 {
+
 	int ch = 1;
 	float o, p, q;
 	float a, b, d, e;
-
 	while (ch == 1)
 	{
 		cout << "******************************************************************************************\n";   //To display menu of the program
@@ -26,7 +27,7 @@ void MainMenu()
 		cin >> p;
 		cout << "\nEnter the concentration(microgram per cubic metre) of PM10 -24 hr. average:\n";
 		cin >> q;
-		a = aqico(o);                                                  // function call to calculate aqi of individual pollutants                     
+		a = aqico(o);                                                  // function call to calculate aqi of individual pollutants
 		b = aqipm25(p);
 		d = aqipm10(q);
 		if ((a > b) && (a > d))                                          //calculating AQI of the air(AQI of air is the highest AQI among the given polllutants)
@@ -42,6 +43,5 @@ void MainMenu()
 		cin >> ch;
 		system("cls");
 	}
-
 
 }
