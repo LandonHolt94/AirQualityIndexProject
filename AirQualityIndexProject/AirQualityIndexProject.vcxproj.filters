@@ -35,6 +35,9 @@
     <ClInclude Include="recommendation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="fileMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="city.txt">

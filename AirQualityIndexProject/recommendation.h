@@ -16,7 +16,7 @@ void prescription(float e)                  //prescription as per the value of A
 
 	if (e >= 101 && e <= 150) cout << "\nFor this value of AQI,members of sensitive groups may experience health effects, but the general public is unlikely to be affected";
 
-	if (e > 151 && e <= 200) cout << "\nEveryone may begin to experience health effects for this value of AQI.Members of sensitive groups may experience more serious health effects";
+	if (e > 151 && e <= 200) cout << "\nEveryone may begin to experience health effects for this value of AQI.Those who are sensitive may experience more serious health effects";
 
 	if (e >= 201 && e <= 300) cout << "\nThis AQI value may trigger a health alert,meaning everyone may experience more serious health effects";
 
