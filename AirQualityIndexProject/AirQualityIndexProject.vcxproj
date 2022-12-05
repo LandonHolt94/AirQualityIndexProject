@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="carbon.h" />
+    <ClInclude Include="fileMenu.h" />
     <ClInclude Include="MainMenu.h" />
     <ClInclude Include="pm10.h" />
     <ClInclude Include="pm2.h" />

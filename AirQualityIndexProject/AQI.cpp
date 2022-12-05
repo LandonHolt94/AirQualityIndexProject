@@ -4,8 +4,10 @@
 #include "pm10.h"
 #include "recommendation.h"
 #include "MainMenu.h"
+#include "fileMenu.h"
 #include <Windows.h>
 #include <string>
+
 using namespace std;
 
 void startMenu()
@@ -23,7 +25,7 @@ void startMenu()
 	fontex.dwFontSize.X = 36;
 	fontex.dwFontSize.Y = 36;
 	SetCurrentConsoleFontEx(hOut, NULL, &fontex);
-	cout << "CAN YOU SEE THIS???????????????";
+	
 
 	for (int i = 0; i < k.length(); ++i) {
 		cout << k.at(i);
@@ -52,6 +54,8 @@ int main()
 	system("PAUSE");
 	system("CLS");
 	startMenu();
+	fileMenu();
 	MainMenu();
+	ifstream input;
 	return 0;
 }
