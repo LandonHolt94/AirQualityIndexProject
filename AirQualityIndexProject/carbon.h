@@ -3,7 +3,7 @@
 using namespace std;
 
 
-float aqico(float o)                    //CAlculating the AQI of carbon mono oxide
+float aqico(float o)                    //CAlculating the AQI of carbon monooxide
 {
     float c;
 
