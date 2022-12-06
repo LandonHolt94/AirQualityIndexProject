@@ -136,6 +136,7 @@
     <ClInclude Include="pm10.h" />
     <ClInclude Include="pm2.h" />
     <ClInclude Include="recommendation.h" />
+    <ClInclude Include="startMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

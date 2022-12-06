@@ -2,8 +2,9 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include "fileMenu.h"
+#include "StartMenu.h"
 using namespace std;
-
 
 void MainMenu()
 {
@@ -13,6 +14,7 @@ void MainMenu()
 	float a, b, d, e;
 	while (ch == 1)
 	{
+		fileMenu();
 		cout << "******************************************************************************************\n";   //To display menu of the program
 		cout << "\t\t\t\tAQI(Air Quality Index) calculator\n";
 		cout << "\n";
@@ -39,7 +41,7 @@ void MainMenu()
 		cout << "\n";
 		cout << "\n";
 		prescription(e);                                          //prescription function called by passing value of AQI
-		cout << "\nWant to continue (1-Continue,0-Exit)?\n";         // choice given to user whether to continue or exit from the program
+		cout << "\nWant to continue (1-Continue,0-Exit To Menu)?\n";         // choice given to user whether to continue or exit from the program
 		cin >> ch;
 		system("cls");
 	}
