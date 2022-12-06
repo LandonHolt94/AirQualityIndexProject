@@ -1,0 +1,24 @@
+﻿  AQI.cpp
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(14,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(20,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(26,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(32,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(38,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(44,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(14,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(20,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(26,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(32,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(38,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(44,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(14,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(20,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(26,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(32,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(38,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(44,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\carbon.h(48): warning C4715: 'aqico': not all control paths return a value
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm10.h(49): warning C4715: 'aqipm10': not all control paths return a value
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\pm2.h(48): warning C4715: 'aqipm25': not all control paths return a value
+C:\Users\Big Homie DT\source\repos\NewAQI\AirQualityIndexProject\fileMenu.h(57): warning C4715: 'fileMenu': not all control paths return a value
+  AirQualityIndexProject.vcxproj -> C:\Users\Big Homie DT\source\repos\NewAQI\x64\Debug\AirQualityIndexProject.exe
