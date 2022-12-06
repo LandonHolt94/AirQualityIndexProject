@@ -5,22 +5,22 @@
 using namespace std;
 
 
-void prescription(float e)                  //prescription as per the value of AQI
+void prescription(float e)                  //Recommendations based off value of the Air Quality Index's value
 {
 	cout << "\nAQI of the AIR is = " << e;
 	cout << "\n";
 	cout << "\nRecommendation:";
-	if (e >= 0 && e <= 50) cout << "\nAir Quality is in nominal levels and poses little or no health risk.";
+	if (e >= 0 && e <= 50) cout << "\nThe quailty of air is good and poses no health risk.";
 
-	if (e >= 51 && e <= 100) cout << "\nAir quality is acceptable; however in this range may pose a moderate health concern for a small number of individuals.";
+	if (e >= 51 && e <= 100) cout << "\nThe quality of air is moderate; however, unusually sensitive individuals may be affected after prolonged exposure.";
 
-	if (e >= 101 && e <= 150) cout << "\nFor this value of AQI, members of sensitive groups may experience health effects, but the general public is unlikely to be affected";
+	if (e >= 101 && e <= 150) cout << "\nFor this AQI, members of sensitve groups may expierence health effects. General public is likely not to be affected.";
 
-	if (e > 151 && e <= 200) cout << "\nEveryone may begin to experience health effects for this value of AQI. Those who are sensitive may experience more serious health effects";
+	if (e > 151 && e <= 200) cout << "\nThe quality of air is unhealthy for everyone, especially people with heart and lung disease. Avoid strenuous and prolonged activities outdoors.";
 
-	if (e >= 201 && e <= 300) cout << "\nThis AQI value may trigger a health alert, meaning everyone may experience more serious health effects";
+	if (e >= 201 && e <= 300) cout << "\nThe quality of air is very unhealthy for everyone. People with heart and lung disease should stay indoors.";
 
-	if (e >= 301 && e <= 500) cout << "\nAQi values over 300 trigger health warnings of emergency conditions. The entire population of the city is even more likely to be affected by serious health effects";
+	if (e >= 301 && e <= 500) cout << "\nThe quality of air is Hazardous! Everyone should avoid all outdoor activites and remain indoors.";
 
 
 }

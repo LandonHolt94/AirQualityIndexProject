@@ -3,11 +3,11 @@
 using namespace std;
 
 
-float aqico(float o)                    //CAlculating the AQI of carbon monooxide
+float aqico(float o)                    
 {
     float c;
 
-    cout << "\nAQI of CO = ";
+    cout << "\nAQI of CO = ";             //Calculating the AQI of carbon monooxide
 
     if (o >= 0.0 && o <= 4.4)
     {
