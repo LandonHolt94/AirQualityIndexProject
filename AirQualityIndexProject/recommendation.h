@@ -12,7 +12,7 @@ void prescription(float e)                  //Recommendations based off value of
 	cout << "\nRecommendation:";
 	if (e >= 0 && e <= 50) cout << "\nThe quailty of air is good and poses no health risk.";
 
-	if (e >= 51 && e <= 100) cout << "\nThe quality of air is moderate; however, unusually sensitive individuals may be affected after prolonged exposure.";
+	if (e >= 51 && e <= 100) cout << "\nThe quality of air is acceptable; however, unusually sensitive individuals may be affected after prolonged exposure.";
 
 	if (e >= 101 && e <= 150) cout << "\nFor this AQI, members of sensitve groups may expierence health effects. General public is likely not to be affected.";
 
