@@ -1,0 +1,7 @@
+1 Mentone - Carbon: 1 pm2: 40 pm10: 13 
+2 Banning - Carbon: 1 pm2: 30 pm10: 8 
+3 Beaumont - Carbon: 1 pm2: 36 pm10: 10 
+4 Redlands - Carbon: 1 pm2: 46 pm10: 19
+5 Calimesa - Carbon: 1 pm2: 36 pm10: 12
+6 Highland Carbon: 1 pm2: 45 pm10: 19
+7 Yucaipa Carbon: 1 pm2: 35 pm10: 11
